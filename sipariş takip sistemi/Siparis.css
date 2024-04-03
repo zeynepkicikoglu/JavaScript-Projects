@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+table.table-1 {
+  table-layout: fixed;
+  border: solid 2px #4444ff;
+  width: 750px;
+}
+
+tr.tr-1 {
+  height: 85px;
+}
+
+tr.tr-2 {
+  text-align: center;
+  height: 75px;
+}
+
+td {
+  border: solid 2px #555588;
+}
+td.td-1 {
+  text-align: center;
+}
+button.button-1 {
+  width: 220px;
+  color: #3333ee;
+  font-weight: 900;
+}
+
+button.button-2 {
+  background-color: #aaaa44;
+  width: 60%;
+}

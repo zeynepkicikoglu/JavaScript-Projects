@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <title>Form ve Giris Uygulaması</title>
+    <script type="text/javascript" src="giris.js"></script>
+  </head>
+  <body onload="sayfaYukle('yukle');">
+    <table class="table_1">
+      <thead>
+        <tr>
+          <th colspan="2">Sisteme Giriş</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tr_1">
+          <td class="td_1">
+            <input
+              type="text"
+              id="input-1"
+              value="Geçici bi metin"
+              onfocusin="veriGirisiBasladi(this, '#FFFFCC');"
+              onfocusout="veriGirisiBitti(this);"
+            />
+          </td>
+          <td class="td_1">
+            <button id="button-1" type="button" onclick="giris();">
+              (geçici)
+            </button>
+          </td>
+        </tr>
+        <tr class="tr_1">
+          <td class="td_1">
+            <label for="uygulamalar">Uygulamayı seçiniz:</label>
+            <select name="uygulamalar" id="select-1">
+              <optgroup label="Birinci İşlem Ailesi">
+                <option value="islem_1.1">İşlem - 1.1</option>
+                <option value="islem_1.2">İşlem - 1.2</option>
+              </optgroup>
+              <optgroup label="İkinci İşlem Ailesi">
+                <option value="islem_2.1">İşlem - 2.1</option>
+                <option value="islem_2.2">İşlem - 2.2</option>
+              </optgroup>
+            </select>
+          </td>
+          <td class="td_1">
+            <button
+              id="button-2"
+              type="button"
+              onclick="secilenUygulamayiCalistir();"
+            >
+              Deneme Uygulamasını Çalıştır
+            </button>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="tr_2">
+          <td colspan="2">
+            <!-- dataset örneği -->
+            <p
+              id="p-1"
+              data-kisa-adi="Paragrafın kısa adı..."
+              data-uzun-adi="Paragrafın uzunnnn adı..."
+            >
+              .....
+            </p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

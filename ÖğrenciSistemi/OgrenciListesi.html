@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Öğrenci Listesi</title>
+    <script type="text/javascript" src="OgrenciListesi.js"></script>
+    <link rel="stylesheet" href="OgrenciListesi.css" />
+    <link rel="icon" href="" />
+  </head>
+  <body onload="sayfaYukle();">
+    <div id="div-1" class="div-1">
+      <h1>Öğrenciyi Bulalım-Örnekler</h1>
+
+      <table class="table_1_css">
+        <tr>
+          <td>
+            <label for="input-1"> Öğrenci numarası:</label>
+          </td>
+          <td>
+            <input type="number" id="input-1" />
+          </td>
+          <td>
+            <button type="button" id="button-1" onclick="numaradanBul();">
+              Öğrenci Numarasını Bul
+            </button>
+          </td>
+          <td>
+            <p id="p-1" class="p-1">
+              Aranan Öğrenci Numarası:
+              <span id="span-1" class="span-1"> </span>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="input-2">Öğrenci Sırası:</label>
+          </td>
+          <td>
+            <input type="number" id="input-2" style="width: 75px" />
+          </td>
+          <td>
+            <button id="button-2" type="button" onclick="siradanBul();">
+              Sıra Numaralı Öğrenciyi Bul
+            </button>
+          </td>
+          <td>
+            <p id="p-2" class="p-1">
+              Aranan Öğrenci:
+              <span id="span-2" class="span-1"> </span>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <p id="p-1"></p>
+  </body>
+</html>
