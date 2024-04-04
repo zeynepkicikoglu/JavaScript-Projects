@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+table {
+  border: 4px #222299 solid;
+  width: 500px;
+  table-layout: fixed;
+}
+td {
+  border: 2px #992222 solid;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 900;
+  color: #2222aa;
+}
+
+label.label-1 {
+  font-family: "Lucida Console";
+  color: #4444aa;
+}
+label.label-2 {
+  font-family: "Lucida Handwriting", "Brush Script MT", Cursive;
+  font-weight: 900;
+  font-size: 18px;
+  color: #aa4444;
+}
+
+div {
+  border: 4px #cccccc solid;
+  width: 500px;
+}
+span.span-1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #be1f23;
+}
+
+bitton.button-A {
+  width: 100px;
+  background-color: #ffff33;
+  color: #3333ef;
+}
+
+button.button-B {
+  width: 250px;
+  background-color: #aaaacc;
+  color: #ffff99;
+  font-weight: 900;
+}
+
+button.button-C {
+  background-color: #aaaaaa;
+  border: 7px red solid;
+}

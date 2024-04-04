@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+    <meta charset= "UTF-8">
+    <title>JS Nesneleri ve Olayları</title>
+
+    <script type="text/javascript" src="takvim.js"></script> 
+    <link rel="stylesheet" href="takvim.css">
+
+</head>
+
+<body onload="sayfaYukle();">
+
+    <h2>JS Nesneleri ve Olayları<h2>
+
+<label for="table-1" id="label-1" class="label-I" ondblclick="ciftTikla(1);">Örnek Cizelge(cift tiklayiniz)</label>
+ <table id="table-1" ondblclick="ciftTikla(2);"></table>
+
+<p id="p-1" ondblclick="ciftTikla(3);">Bir paragraf...</p>
+
+<div onclick="tarihiGoster(1);">Tarih: <span id="span-1" class="span-1">... </span></div> 
+<div onclick="tarihiGoster(2);">Gün: <span id="span-2" class="span-1">...</span></div>
+<div onclick="tarihiGoster(3);">Ay: <span id="span-3" class="span-1">...</span></div>
+<div onclick="tarihiGoster(4);">Haftanin Günü: <span id="span-4" class="span-1">...</span></div> 
+<div onclick="tarihiGoster(5);">Yal: <span id="span-5" class="span-1">...</span></div>
+<div onclick="tarihiGoster(6);">Saat: <span id="span-6" class="span-1">...</span></div>
+
+<br /> <br />
+
+<button id="button-1" type="button"  onmouseenter="imlecIslemi_1(this, '#FFDDDD');" onmouseleave="imlecIslemi_1(this, '#FFFF22');" onclick="tusTiklandi(this);">Tuş-1</button>
+
+<button id="button-2" type="button" onmouseenter="imlecIslemi_2(this, '60px');" onmouseleave="imlecIslemi_2(this, '22px');">Tuş-2</button>
+
+<button id="button-3" type="button" onmouseenter="imlecIslemi_3(this, 'button-A', 'Buyrun?');" onmouseleave="imlecIslemi_3(this, 'button-B', 'Ürünlerimiz çok kalitelidir');">Tuş-3</button>
+
+
+
+</body>
+
+</html>
+
