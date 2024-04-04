@@ -10,5 +10,3 @@ enocta eğitimi kapsamında yapılan projeler
 ![Ekran Resmi 2024-04-01 14 24 22](https://github.com/zeynepkicikoglu/JavaScript-Projects/assets/91759024/c1660dbe-b3ed-4b77-bf05-ca07aab9fefe)
 
 
-
-takvim/Ekran Resmi 2024-04-04 00.43.44.jpg
